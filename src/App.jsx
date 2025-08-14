@@ -26,7 +26,7 @@ const App = () => {
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<ContactPage />} />
        <Route path="/certificates" element={<Documentation />} />
-          <Route path="/catalogue" element={<Catalouge />} />
+          {/* <Route path="/catalogue" element={<Catalouge />} /> */}
       <Route path="/services/fabric-for-acoustic" element={<AcousticFabric />} />
       <Route path="/services/fabric-for-cinema" element={<CinemaFabric />} />
       <Route path="/services/glaze-cotton-fabric-for-stage-furnishing" element={<GlazeCottonFabric />} />
