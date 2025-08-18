@@ -24,6 +24,7 @@ const fabricCategories = [
     description:
       "Engineered to absorb sound while adding elegance — ideal for auditoriums, studios, and conference halls.",
     imgSrc: img1,
+    route: "/services/fabric-for-acoustic",
   },
   {
     icon: <FaTheaterMasks className="text-2xl text-[#1e3a8a]" />,
@@ -31,6 +32,7 @@ const fabricCategories = [
     description:
       "Specialized blackout and velvet fabrics curated for immersive cinematic environments.",
     imgSrc: img2,
+    route: "/services/fabric-for-cinema",
   },
   {
     icon: <FaCouch className="text-2xl text-[#1e3a8a]" />,
@@ -38,6 +40,7 @@ const fabricCategories = [
     description:
       "Durable and stylish fabrics tailored for modular furniture — comfort meets resilience.",
     imgSrc: img3,
+    route: "/services/fabric-for-modular-kitchen",
   },
   {
     icon: <FaChair className="text-2xl text-[#1e3a8a]" />,
@@ -45,6 +48,7 @@ const fabricCategories = [
     description:
       "Premium-grade stage furnishing fabrics with glaze cotton and superior drape qualities.",
     imgSrc: img4,
+    route: "/services/glaze-cotton-fabric-for-stage-furnishing",
   },
   {
     icon: <FaHome className="text-2xl text-[#1e3a8a]" />,
@@ -52,6 +56,7 @@ const fabricCategories = [
     description:
       "Textiles designed to optimize acoustics and aesthetics in luxury home cinema setups.",
     imgSrc: img5,
+    route: "/services/fabric-for-home-theater",
   },
   {
     icon: <FaCogs className="text-2xl text-[#1e3a8a]" />,
@@ -59,6 +64,7 @@ const fabricCategories = [
     description:
       "Fire-retardant, high-performance textiles built to last in commercial cinema seating.",
     imgSrc: img6,
+    route: "/services/cinema-chair-upholstery",
   },
 ];
 
@@ -78,14 +84,17 @@ export default function FabricCategories() {
           Our <span className="text-[#1e3a8a]">Fabric Categories</span>
         </h3>
         <p className="text-gray-700 max-w-3xl mx-auto mt-4 mb-10 text-sm sm:text-base">
-          Innovatives Fabric offers high-end textile solutions engineered for performance, luxury, and sustainability across acoustic, cinematic, and commercial environments.
+          Innovatives Fabric offers high-end textile solutions engineered for
+          performance, luxury, and sustainability across acoustic, cinematic,
+          and commercial environments.
         </p>
 
         {/* Service Cards */}
         <div className="flex flex-wrap justify-center gap-6">
           {fabricCategories.map((service, idx) => (
-            <div
+            <Link
               key={idx}
+              to={service.route}
               className="bg-white text-black shadow-md rounded-xl p-5 w-80 flex flex-col items-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
             >
               <img
@@ -93,14 +102,16 @@ export default function FabricCategories() {
                 alt={service.title}
                 className="w-full h-44 object-cover rounded-lg mb-4"
               />
-              <div className="bg-white p-3 border-1 border-blue-900 relative -top-10 rounded-full shadow-md">
+              <div className="bg-white p-3 border border-blue-900 relative -top-10 rounded-full shadow-md">
                 {service.icon}
               </div>
               <h4 className="text-lg font-bold text-[#1B2A41] uppercase -mt-5">
                 {service.title}
               </h4>
-              <p className="text-sm text-gray-600 mt-2">{service.description}</p>
-            </div>
+              <p className="text-sm text-gray-600 mt-2">
+                {service.description}
+              </p>
+            </Link>
           ))}
         </div>
 

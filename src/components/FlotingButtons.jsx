@@ -11,8 +11,6 @@ const FloatingButtons = () => {
       >
         <FaPhoneAlt size={20} />
       </a>
-
-     
       <a
         href="https://wa.me/+919717958484" 
         target="_blank"
