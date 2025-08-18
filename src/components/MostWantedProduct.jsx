@@ -12,12 +12,12 @@ import p5 from "../assets/product/p5.jpg";
 import p6 from "../assets/product/p6.jpg";
 
 const products = [
-  { id: 1, image: p1, route: "/collection/fabrics" },
-  { id: 2, image: p2, route: "/collection/fabrics" },
-  { id: 3, image: p3, route: "/collection/fabrics" },
-  { id: 4, image: p4, route: "/collection/fabrics" },
-  { id: 5, image: p5, route: "/collection/fabrics" },
-  { id: 6, image: p6, route: "/collection/fabrics" },
+  { id: 1, image: p1, route: "/services/fabric-for-acoustic" },
+  { id: 2, image: p2, route: "/services/fabric-for-cinema" },
+  { id: 3, image: p3, route: "/services/glaze-cotton-fabric-for-stage-furnishing" },
+  { id: 4, image: p4, route: "/services/glaze-cotton-fabric-for-stage-furnishing" },
+  { id: 5, image: p5, route: "/services/cinema-chair-upholstery" },
+  { id: 6, image: p6, route: "/services/fabric-for-home-theater" },
 ];
 
 export default function ProductSlider() {
@@ -94,7 +94,7 @@ export default function ProductSlider() {
                   onClick={() => navigate(product.route)}
                   className="bg-white p-3 rounded-full shadow-md hover:bg-[#F5F5DC] transition"
                 >
-                  <FaArrowRight className="text-[#2e3a59] text-sm" />
+                  <FaArrowRight className="text-[#2e3a59] text-sm cursor-pointer" />
                 </button>
               </div>
             </div>

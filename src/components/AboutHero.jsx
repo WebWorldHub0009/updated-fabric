@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import bgImage from "../assets/home/hero2.avif"; // Replace with fabric-themed image
+import { Link } from "react-router-dom";
 
 const headings = [
   { main: "Weaving ", highlight: "Elegance" },
@@ -80,20 +81,16 @@ const HeroAbout = () => {
           We specialize in high-end fabric solutions — from modular furniture and seat fabrics to cinema drapes and glazed cotton textiles. A fusion of style, durability, and innovation woven into every thread.
         </motion.p>
 
-      <motion.button
-  className="mt-8 px-8 py-3 text-lg font-semibold rounded-full bg-[#1c7925] text-black hover:bg-white transition duration-300 shadow-lg"
-  initial={{ opacity: 0, y: 30 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1, delay: 0.5 }}
-  onClick={() => {
-    const section = document.getElementById("craftsmanship-section");
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  }}
->
-  Explore Our Craftsmanship
-</motion.button>
+      <Link to="/catalogue">
+  <motion.button
+    className="mt-8 px-8 py-3 text-lg cursor-pointer font-semibold rounded-full bg-[#1c7925] text-black hover:bg-white transition duration-300 shadow-lg"
+    initial={{ opacity: 0, y: 30 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 1, delay: 0.5 }}
+  >
+    Explore Our Craftsmanship
+  </motion.button>
+</Link>
 
       </div>
     </section>

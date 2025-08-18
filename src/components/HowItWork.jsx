@@ -92,7 +92,7 @@ const HowItWorks = () => {
             <div className="absolute bottom-4 left-1/2 -translate-x-1/2 w-full px-4">
               <div className="opacity-0 translate-y-1 group-hover:translate-y-8 group-hover:opacity-100 transition-all duration-500 ease-in-out">
                 <Link to="/contact">
-                  <button className="w-full rounded-full bg-[#2E3A59] text-white text-sm py-2 hover:bg-[#1c263b] transition">
+                  <button className="w-full cursor-pointer rounded-full bg-[#2E3A59] text-white text-sm py-2 hover:bg-[#1c263b] transition">
                     Contact Us
                   </button>
                 </Link>

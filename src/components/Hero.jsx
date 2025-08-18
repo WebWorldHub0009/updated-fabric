@@ -44,12 +44,12 @@ export default function HeroSection() {
             A legacy in domestic and global textiles.
             <br />
             <span className="text-white">
-              Innovates Fabric creates luxurious, high-performance furnishing
+              Innovatives Fabric creates luxurious, high-performance furnishing
               and upholstery fabrics tailored for elegant, modern interiors.
             </span>
           </p>
           <Link to={"/about"}>
-            <button className="mt-6 bg-[#1c7925] hover:bg-[#155a1d] text-white px-5 py-2 sm:px-6 sm:py-3 rounded-full flex items-center gap-2 shadow-lg transition duration-300 text-sm sm:text-base">
+            <button className="mt-6 bg-[#1c7925] cursor-pointer hover:bg-[#155a1d] text-white px-5 py-2 sm:px-6 sm:py-3 rounded-full flex items-center gap-2 shadow-lg transition duration-300 text-sm sm:text-base">
               Explore More <FaArrowRight />
             </button>
           </Link>

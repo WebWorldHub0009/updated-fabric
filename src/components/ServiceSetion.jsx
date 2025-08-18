@@ -78,7 +78,7 @@ export default function FabricCategories() {
           Our <span className="text-[#1e3a8a]">Fabric Categories</span>
         </h3>
         <p className="text-gray-700 max-w-3xl mx-auto mt-4 mb-10 text-sm sm:text-base">
-          Innovates Fabric offers high-end textile solutions engineered for performance, luxury, and sustainability across acoustic, cinematic, and commercial environments.
+          Innovatives Fabric offers high-end textile solutions engineered for performance, luxury, and sustainability across acoustic, cinematic, and commercial environments.
         </p>
 
         {/* Service Cards */}

@@ -11,7 +11,7 @@ export default function AboutSection() {
 
       {/* === Watermark Company Name === */}
       <div className="absolute text-[100px] md:text-[160px] font-bold text-[#1c7925]/5 -rotate-12 top-[40%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0 select-none pointer-events-none">
-        INNOVATES
+        INNOVATIVES
       </div>
 
       {/* === Decorative SVG Top Right === */}
@@ -25,7 +25,7 @@ export default function AboutSection() {
       {/* === Center Title === */}
       <div className="relative z-10 text-center mb-16">
         <h2 className="text-5xl md:text-6xl font-extrabold text-[#001f5c] mb-4">
-          About <span className="text-[#1c7925]">Innovates Fabric</span>
+          About <span className="text-[#1c7925]">Innovatives Fabric</span>
         </h2>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
           Redefining luxury textiles with sustainability, design, and
@@ -54,7 +54,7 @@ export default function AboutSection() {
           <h3 className="text-4xl font-bold text-[#001f5c] mb-4">Who We Are</h3>
           <p className="text-gray-700 text-lg mb-6 leading-relaxed">
             At{" "}
-            <span className="text-[#1c7925] font-semibold">Innovates Fabric</span>,
+            <span className="text-[#1c7925] font-semibold">Innovatives Fabric</span>,
             we blend artistic innovation with textile mastery. With a heritage
             steeped in quality and a future-focused vision, we offer premium
             upholstery, furnishing, and decor materials trusted by top designers

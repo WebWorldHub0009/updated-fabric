@@ -84,7 +84,7 @@ const Catalouge = () => {
               <div className="flex justify-between mt-4">
                 <button
                   onClick={() => openPDF(cat.title)}
-                  className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition"
+                  className="px-4 py-2 cursor-pointer bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition"
                 >
                   View
                 </button>

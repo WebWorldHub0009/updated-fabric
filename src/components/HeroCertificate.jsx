@@ -90,7 +90,7 @@ const HeroCertificate = ({ certSectionRef }) => {
 
         <motion.button
           onClick={scrollToCertificates}
-          className="mt-8 px-6 py-3 bg-[#001f5c] text-white rounded-xl hover:bg-[#0d2a70] transition"
+          className="mt-8 px-6 py-3 bg-[#001f5c] cursor-pointer text-white rounded-xl hover:bg-[#0d2a70] transition"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >

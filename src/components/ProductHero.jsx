@@ -97,7 +97,7 @@ const HeroProduct = () => {
         </div>
 
         {/* CTA */}
-         <motion.button
+         {/* <motion.button
          className="mt-8 px-8 py-3 text-lg font-semibold rounded-full bg-[#1c7925] text-black hover:bg-white transition duration-300 shadow-lg"
          initial={{ opacity: 0, y: 30 }}
          animate={{ opacity: 1, y: 0 }}
@@ -110,7 +110,7 @@ const HeroProduct = () => {
          }}
        >
          Explore Our Catalogues
-       </motion.button>
+       </motion.button> */}
       </div>
     </section>
   );

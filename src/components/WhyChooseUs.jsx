@@ -96,7 +96,7 @@ export default function WhyChooseUs() {
                     : "bg-[#2E3A59] text-white hover:bg-blue-800"
                 }`}
               >
-                Learn More
+                Read More
               </button>
             </div>
           ))}
